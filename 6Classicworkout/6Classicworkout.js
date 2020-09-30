@@ -9,17 +9,17 @@ let imageNum = 0;
 
 const workout = [
     {'time': 15, 'name': '1/10 Get Ready...', 'image': "../Logos/white.png"},
-    {'time': 45, 'name': '1/10 Push-ups', 'image': "../Logos/Push-ups.gif"},
+    {'time': 45, 'name': '1/10 Jumping jacks', 'image': "../Logos/jumpingjack.gif"},
     {'time': 10, 'name': '2/10 Rest', 'image': "../Logos/white.png"},
-    {'time': 45, 'name': '2/10 Tricep dips', 'image': "../Logos/tricep-dips.gif"},
+    {'time': 45, 'name': '2/10 Wall-sit', 'image': "../Logos/wallsit.gif"},
     {'time': 10, 'name': '3/10 Rest', 'image': "../Logos/white.png"},
-    {'time': 45, 'name': '3/10 Diamond push-ups', 'image': "../Logos/Push-ups.gif"},
+    {'time': 45, 'name': '3/10 Push-ups', 'image': "../Logos/Push-ups.gif"},
     {'time': 10, 'name': '4/10 Rest', 'image': "../Logos/white.png"},
-    {'time': 45, 'name': '4/10 Up and down plank', 'image': "../Logos/plank.gif"},
+    {'time': 45, 'name': '4/10 Tricep-dips', 'image': "../Logos/tricep-dips.gif"},
     {'time': 10, 'name': '5/10 Rest', 'image': "../Logos/white.png"},
-    {'time': 45, 'name': '5/10 One leg push ups', 'image': "../Logos/onelegpush-up.gif"},
+    {'time': 45, 'name': '5/10 Abdominal crunches', 'image': "../Logos/abdominal.gif"},
     {'time': 10, 'name': '6/10 Rest', 'image': "../Logos/white.png"},
-    {'time': 45, 'name': '6/10 Burpees', 'image': "../Logos/burpees.gif"},
+    {'time': 45, 'name': '6/10 Leg raises', 'image': "../Logos/legraises.gif"},
     {'time': 10, 'name': '7/10 Rest', 'image': "../Logos/white.png"},
     {'time': 90, 'name': '7/10 Plank', 'image': "../Logos/plank.gif"},
     {'time': 10, 'name': '8/10 Rest', 'image': "../Logos/white.png"},
@@ -27,8 +27,6 @@ const workout = [
     {'time': 10, 'name': '9/10 Rest', 'image': "../Logos/white.png"},
     {'time': 90, 'name': '9/10 right-side Plank', 'image': "../Logos/sideplank.gif"},
     {'time': 10, 'name': '10/10 DONE', 'image': "../Logos/white.png"},
-    
-    
 ]
 
 const countdownEl = document.getElementById('countdown');
